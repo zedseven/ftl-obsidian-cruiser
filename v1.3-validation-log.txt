@@ -1,0 +1,34 @@
+@ KRS Obsidian Cruiser v.1.3.ftl:
+  -------------------------------
+
+> data/krs_obsidian.xml
+
+~ Strict XML Parser Issues:
+  ! <gib1>...</gib2>
+
+> img/ship/interior/krs_obsCruis_weapons.png
+~ Type: RGB w/8bit channels (Usually RGB+Alpha w/8bit channels)
+
+> img/ship/krs_obsidian_base.png
+~ As of FTL 1.6.1, interlaced PNG images are not supported (Re-save it as non-interlaced)
+
+> img/ship/krs_obsidian_gib1.png
+~ As of FTL 1.6.1, interlaced PNG images are not supported (Re-save it as non-interlaced)
+
+> img/ship/krs_obsidian_gib2.png
+~ As of FTL 1.6.1, interlaced PNG images are not supported (Re-save it as non-interlaced)
+
+> img/ship/krs_obsidian_gib3.png
+~ As of FTL 1.6.1, interlaced PNG images are not supported (Re-save it as non-interlaced)
+
+> img/ship/krs_obsidian_gib4.png
+~ As of FTL 1.6.1, interlaced PNG images are not supported (Re-save it as non-interlaced)
+
+> img/ship/krs_obsidian_gib5.png
+~ As of FTL 1.6.1, interlaced PNG images are not supported (Re-save it as non-interlaced)
+
+> img/ship/krs_obsidian_gib6.png
+~ As of FTL 1.6.1, interlaced PNG images are not supported (Re-save it as non-interlaced)
+
+> KRS Obsidian Cruiser Readme.txt
+~ Extraneous top-level file.
