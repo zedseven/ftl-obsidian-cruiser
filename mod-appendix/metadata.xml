@@ -1,0 +1,19 @@
+<metadata>
+  <!-- CDATA tags mean no need to escape special characters. -->
+  <!-- Don't worry about spaces at the start/end. That gets trimmed. -->
+
+  <title><![CDATA[ Obsidian Cruiser ]]></title>
+  <threadUrl><![CDATA[ http://www.ftlgame.com/forum/viewtopic.php?f=11&t=2574 ]]></threadUrl>
+  <author><![CDATA[ Kieve ]]></author>
+  <version><![CDATA[ 1.3 ]]></version>
+
+
+  <description>
+<![CDATA[ Replaces Engi-B "Vortex"
+
+See Readme for full change log.
+]]>
+  </description>
+
+
+</metadata>

@@ -1,0 +1,37 @@
+<!-- Effect -->
+<animSheet name="krs_gravbombFX" w="640" h="64" fw="64" fh="64">effects/krs_explosion_singularity.png</animSheet>
+<anim name="krs_gravbombFX">
+	<sheet>krs_gravbombFX</sheet>
+	<desc length="10" x="0" y="0"/>
+	<time>0.88</time>
+</anim>
+
+<!-- Weapon -->
+<animSheet name="krs_gravwep" w="360" h="92" fw="40" fh="92">weapons/krs_singularity_projector.png</animSheet>
+<animSheet name="krs_disruptor_1" w="380" h="88" fw="38" fh="88">weapons/krs_disruptor_1.png</animSheet>
+
+<weaponAnim name="krs_gravwep">
+	<sheet>krs_gravwep</sheet>
+	<desc length="9" x="0" y="0"/>
+	<chargedFrame>5</chargedFrame>
+	<fireFrame>7</fireFrame>
+	<firePoint x="15" y="6" />
+	<mountPoint x="5" y="52" />
+</weaponAnim>
+
+<weaponAnim name="krs_disruptor_1">
+	<sheet>krs_disruptor_1</sheet>
+	<desc length="10" x="0" y="0"/>
+	<chargedFrame>5</chargedFrame>
+	<fireFrame>6</fireFrame>
+	<firePoint  x="19" y="0"/>
+	<mountPoint x="5" y="50"/>
+</weaponAnim>
+
+<!-- Projectile -->
+<animSheet name="krs_gravbombPTL" w="640" h="64" fw="64" fh="64">effects/krs_singularity_projectile.png</animSheet>
+<anim name="krs_gravbombPTL">
+	<sheet>krs_gravbombPTL</sheet>
+	<desc length="10" x="0" y="0"/>
+	<time>0.65</time>
+</anim>

@@ -1,0 +1,11 @@
+<mod:findLike type="music">
+	<mod-append:track>
+		<name>obsidian_V</name>
+		<explore>krs_obsidian_void.OGG</explore>
+		<combat>krs_obsidian_vengeance.OGG</combat>
+	</mod-append:track>
+</mod:findLike>
+
+<!-- Obsidian Cruiser soundFX -->
+<krs_gravfire volume="10">explosions/krs_singularity_generate.wav</krs_gravfire>
+<krs_gravboom volume="10">explosions/krs_singularity_detonate.wav</krs_gravboom>

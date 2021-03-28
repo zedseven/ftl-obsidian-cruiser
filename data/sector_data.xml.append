@@ -1,0 +1,26 @@
+<mod:findName type="sectorDescription" name="CIVILIAN_SECTOR">
+	<mod:findLike type="trackList">
+		<mod-append:track>obsidian_V</mod-append:track>
+	</mod:findLike>
+</mod:findName>
+<mod:findName type="sectorDescription" name="PIRATE_SECTOR">
+	<mod:findLike type="trackList">
+		<mod-append:track>obsidian_V</mod-append:track>
+	</mod:findLike>
+</mod:findName>
+<mod:findName type="sectorDescription" name="ROCK_SECTOR">
+	<mod:findLike type="trackList">
+		<mod-append:track>obsidian_V</mod-append:track>
+	</mod:findLike>
+</mod:findName>
+<mod:findName type="sectorDescription" name="ROCK_HOME">
+	<mod:findLike type="trackList">
+		<mod-append:track>obsidian_V</mod-append:track>
+	</mod:findLike>
+</mod:findName>
+<mod:findName type="sectorDescription" name="CRYSTAL_HOME">
+	<mod:findLike type="trackList">
+		<mod-append:track>obsidian_V</mod-append:track>
+	</mod:findLike>
+</mod:findName>
+

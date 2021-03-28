@@ -1,0 +1,142 @@
+<!-- 	=============================================
+	Begins "Obsidian Cruiser" modifications
+	OBSIDIAN CRUISER : Replaces ENGI-B
+	Created by Kieve R. Svetnikov
+	Do not modify or redistribute this ship
+	OR its armaments without express permission.
+	Contact: krsmodworks@yahoo.com
+	============================================= -->
+
+<blueprintList name="KRS_OBSIDIAN_WEAPONS">
+	<name>KRS_GRAVBOMB</name>
+	<name>KRS_DISRUPTOR_1</name>
+</blueprintList>
+
+<!-- Singularity Projector -->
+<!-- "Black Hole Gun"	   -->
+<weaponBlueprint name="KRS_GRAVBOMB"> 
+	<type>BOMB</type>
+	<title>Singularity Projector</title>
+	<short>S.Proj</short>
+	<locked>1</locked>
+	<desc>A weapon of advanced design. Creates a miniature black-hole within its target.</desc>
+	<tooltip>Creates a black-hole at target point. Causes massive damage to systems and personnel. Creates hull breach.</tooltip>
+	<damage>1</damage>
+	<sysDamage>4</sysDamage>
+	<persDamage>4</persDamage>
+	<missiles>0</missiles>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>10</breachChance>
+	<cooldown>22</cooldown>
+	<power>4</power>
+	<cost>120</cost>
+	<bp>4</bp>
+	<rarity>0</rarity>
+	<image>krs_gravbombPTL</image>
+	<explosion>krs_gravbombFX</explosion>
+	<launchSounds>
+		<sound>krs_gravfire</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>krs_gravboom</sound>
+	</hitShipSounds>
+	<weaponArt>krs_gravwep</weaponArt> 
+</weaponBlueprint>
+
+<weaponBlueprint name="KRS_DISRUPTOR_1">
+	<type>LASER</type>
+	<title>Pulse Disruptor I</title>
+	<short>P.Dsrpt I</short>
+	<desc>A heavy energy weapon that fires multiple shots. Minimal shield-piercing ability</desc>
+	<tooltip>Pierces 1 shield; Fires 3 lasers, 1 damage each. </tooltip>
+	<damage>1</damage>
+	<shots>3</shots>
+	<sp>1</sp>
+	<fireChance>0</fireChance>
+	<breachChance>1</breachChance>
+	<cooldown>15</cooldown>
+	<power>3</power>
+	<cost>120</cost>
+	<bp>7</bp>
+	<rarity>0</rarity>
+	<image>laser_light2</image>
+	<launchSounds>
+		<sound>lightLaser1</sound>
+		<sound>lightLaser2</sound>
+		<sound>lightLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull2</sound>
+		<sound>hitHull3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>krs_disruptor_1</weaponArt> 
+</weaponBlueprint>
+
+<!-- 	Obsidian Cruiser ship	-->
+
+<shipBlueprint name="PLAYER_SHIP_CIRCLE_2" layout="krs_obsidian" img="krs_obsidian">
+	<class>Obsidian Cruiser</class>
+	<name>Retribution</name>
+	<unlock>To unlock this Engi ship you'll need to get to the 5th sector.</unlock>
+	<desc>No one knows who created this intimidating vessel, but it's bound to make the Rebels think twice about taking you on!</desc>
+	<systemList>
+		<doors power="1" room="8" start="true" img="room_doors_6"/>
+		<cloaking power="1" room="15" start="true" img="krs_obsCruis_cloaking"/>
+		<weapons power="4" room="12" start="true" img="krs_obsCruis_weapons">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+		<oxygen power="1" room="9" start="true" img="room_oxygen_5"/>
+		<teleporter power="1" room="13" start="false"/>
+		<engines power="1" room="10" start="true" img="room_engines_2">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<sensors power="1" room="5" start="true" img="krs_obsCruis_sensors"/>
+		<pilot power="1" room="14" start="true" img="krs_obsCruis_pilot">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<shields power="2" room="11" start="true" img="krs_obsCruis_shields">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</shields>
+		<drones power="1" room="6" start="false" img="room_drones_3"/>
+		<medbay power="1" room="7" start="true" img="room_medbay">
+			<slot>
+				<number>-2</number>
+			</slot>
+		</medbay>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList count="2" missiles="0">
+		<weapon name="KRS_GRAVBOMB"/>
+		<weapon name="KRS_DISRUPTOR_1"/>
+	</weaponList>
+	<aug name="ROCK_ARMOR"/>
+	<health amount="30"/>
+	<maxPower amount ="8"/> 
+	<crewCount amount = "2" class="crystal"/>
+	<crewCount amount = "1" class="engi"/>
+	<shieldImage>krs_obsidian</shieldImage>
+	<cloakImage>krs_obsidian</cloakImage>
+</shipBlueprint>
