@@ -98,8 +98,8 @@
 		</clonebay>
 		<doors power="1" room="8" start="true" img="room_doors_6">
 			<slot>
-				<direction>up</direction>
-				<number>0</number>
+				<direction>right</direction>
+				<number>1</number>
 			</slot>
 		</doors>
 		<drones power="1" room="6" start="false" img="room_drones_3" />
@@ -125,7 +125,7 @@
 		</pilot>
 		<sensors power="1" room="5" start="true" img="room_krs_obsCruis_sensors">
 			<slot>
-				<direction>up</direction>
+				<direction>right</direction>
 				<number>1</number>
 			</slot>
 		</sensors>
