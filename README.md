@@ -15,3 +15,4 @@ https://subsetgames.com/forum/viewtopic.php?t=2574
 - Added obsidian and red crystal colours to match the ship
 - Removed duplicate copies of system interiors
 - Moved the contents of the README into the mod description
+- Fixed Doors and Sensors systems' stations
